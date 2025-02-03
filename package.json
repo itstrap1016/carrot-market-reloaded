@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^6.3.0",
     "next": "14.2.21",
+    "prisma": "^6.3.0",
     "react": "^18",
     "react-dom": "^18",
+    "validator": "^13.12.0",
     "zod": "^3.24.1"
   },
   "devDependencies": {
@@ -19,6 +22,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/validator": "^13.12.2",
     "eslint": "^8",
     "eslint-config-next": "14.2.21",
     "postcss": "^8",
